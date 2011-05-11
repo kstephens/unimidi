@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 #
 
+require 'rubygems'
+gem 'ffi-coremidi'
 require 'coremidi'
 
 module UniMIDI
